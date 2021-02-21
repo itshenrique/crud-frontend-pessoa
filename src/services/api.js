@@ -7,7 +7,7 @@ const GET_PERSON = '/person';
 const GET_PEOPLE = '/getPeople';
 
 const api = axios.create({
-  baseURL: 'https://mighty-caverns-40227.herokuapp.com/',
+  baseURL: 'https://whispering-woodland-14518.herokuapp.com/',
 });
 
 function createPerson(person) {
